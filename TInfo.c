@@ -1,6 +1,6 @@
 /*
 	Usermode hidden process detection, using Thread-id enumeration on parent processes
-	Aims at detecting Peter Silberman's FUto rootkit which defeated the McAfee Blacklight Rootkit detection
+	Aims at detecting Peter Silberman's FUto rootkit which defeated the McAfee Blacklight Rootkit detector
 */
 #define _WIN32_WINNT	0x0501
 #include <winsock2.h>
